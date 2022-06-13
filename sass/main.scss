@@ -254,9 +254,44 @@
   text-align: center;
 }
 
+.general-contractors__home--choose-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 15px !important;
+}
+
+.general-contractors__home--choose-first-box {
+  margin-right: 16px;
+}
+
+.general-contractors__home--choose-second-box,
+.general-contractors__home--choose-third-box,
+.general-contractors__home--choose-fourth-box {
+  margin: 0 8px;
+}
+
+.general-contractors__home-choose-icon {
+  display: block;
+  width: 80px;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.general-contractors__home-choose-paragraph {
+  line-height: 2;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Lato;
+}
+
+// FOOTER
+
 .footer {
-  padding: 5rem 0rem;
-  background: #164682;
+  padding: 200px 65px 60px;
+  background: linear-gradient(90deg, #213977 0, #005f9c 100%);
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
 }
 
 .footer-text {
