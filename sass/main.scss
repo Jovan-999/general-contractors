@@ -59,9 +59,12 @@
   text-decoration: none;
   border-radius: 4px;
   margin-top: 15px;
+  cursor: pointer;
   &:hover,
   &:hover {
     background-color: #0069ad;
+    text-decoration: none;
+    color: #ffffff;
   }
 }
 
@@ -124,7 +127,7 @@
   align-items: center;
   position: absolute;
   top: 230px;
-  left: -31%;
+  left: -33.2%;
 }
 
 .general-contractors__home--hero-desc {
@@ -137,4 +140,169 @@
 .general-contractors__home--hero-button {
   display: flex;
   justify-content: center;
+}
+
+.general-contractors__home--good-contractors {
+  margin: 0;
+  padding: 100px 65px;
+  width: auto;
+}
+
+.general-contractors__home--picture-video {
+  padding: 100px 65px;
+}
+.general-contractors__home--picvid-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 1160px;
+  @media (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.general-contractors__home--video-box {
+  width: calc(100% - 0px);
+  height: 250px;
+  margin: 0 0 10px;
+  padding: 0;
+  min-width: 25px;
+  padding-left: 1.5%;
+}
+
+.general-contractors__home--testimonial {
+  margin: 0;
+  padding: 50px 30px;
+  width: auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 11px 0;
+}
+
+.general-contractors__home--testimonial-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #213977;
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.general-contractors__home--testimonial-paragraph {
+  line-height: 32px;
+}
+
+.general-contractors__home--testimonial-span {
+  color: #005f9c;
+  font-weight: bold;
+}
+
+.general-contractors__home--service {
+  background: linear-gradient(90deg, #005f9c 0, #213977 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+.general-contractors__home--service-wrapper {
+  padding: 250px 65px;
+  margin: 0;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.general-contractors__home--service-text {
+  padding-right: 1.5%;
+  margin-top: 50px;
+}
+
+.general-contractors__home--service-heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+}
+
+.general-contractors__home--choose-us {
+  padding: 100px 65px;
+  margin: -100px auto 0 !important;
+}
+
+.general-contractors__home--choose-wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.general-contractors__home--choose-heading {
+  text-align: center;
+  color: #213977;
+  font-weight: 700;
+  font-family: 'Josefin Sans';
+}
+
+.general-contractors__home--choose-paragraph {
+  margin: 0 60px;
+  line-height: 2;
+}
+
+.general-contractors__home--choose-text {
+  font-weight: 400;
+  color: #333;
+  font-family: Lato;
+  text-align: center;
+}
+
+.footer {
+  padding: 5rem 0rem;
+  background: #164682;
+}
+
+.footer-text {
+  padding: 0 45px;
+  text-align: center;
+}
+
+.nav {
+  padding: 2rem 4rem;
+  .nav-item {
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.footer-text {
+  color: #fff;
+  padding: 2rem 4rem;
+  font-size: small;
+}
+
+.contacts {
+  color: #fff;
+  padding: 2rem 4rem;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: rgba(255, 255, 255, 0.1);
+  p {
+    text-align: center;
+  }
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  .card-item {
+    padding-bottom: 5px;
+    padding-right: 5px;
+    .logo-bank {
+      display: block;
+      width: 56px;
+      height: 37px;
+    }
+  }
 }
