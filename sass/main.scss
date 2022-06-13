@@ -1,0 +1,66 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.general-contractors__home--section-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.general-contractors__home--header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.general-contractors__home--logo {
+  padding: 15px 10px;
+  margin: 0;
+  background-color: #213977;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.general-contractors__home--icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.general-contractors__home--facebook-icon {
+  color: #ffffff;
+  background-color: #3a5998;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.general-contractors__home--business-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.general-contractors__header--phone {
+}
+
+.general-contractors__header--pages {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.general-contractors__navigation--menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.general-contractors__navigation-text {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 30px;
+  text-decoration: none;
+}
