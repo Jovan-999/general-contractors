@@ -12,7 +12,7 @@
     />
     <title>Document</title>
   </head>
-  <body>
+  <body style="font-family: Lato">
     <section class="general-contractors__home--section-header">
       <header class="general-contractors__home--header">
         <div class="general-contractors__home--logo">
@@ -28,19 +28,31 @@
                 class="general-contractors__home--facebook-icon"
                 src="/img/facebook.svg"
             /></a>
-            <a>
+            <a
+              href="https://www.google.com/maps/place/SCR,+Inc./@32.7254335,-96.3152719,15z/data=!4m2!3m1!1s0x0:0x6c22ac57702340db?sa=X&ved=2ahUKEwjR0pyWvafzAhWN_7sIHQQXA0kQ_BJ6BAhIEAU"
+              target="_blank"
+            >
               <img
                 class="general-contractors__home--business-icon"
-                src="/img/business-google.svg"
+                src="/img/google-business.svg"
               />
             </a>
           </div>
-          <p>Roofing,Siding,Gutters,Windows and Fencing</p>
+          <p class="general-contractors__header--desc">
+            Roofing,Siding,Gutters,Windows and Fencing
+          </p>
         </div>
         <div>
-          <button class="general-contractors__header--phone">
-            <img src="/img/phone.svg" /> 972-839-6834
-          </button>
+          <a class="general-contractors__header--phone">
+            <span
+              ><img
+                class="general-contractors__header--phone-svg"
+                src="/img/phone.png"
+            /></span>
+            <span class="general-contractors__header--phone-number">
+              972-839-6834
+            </span>
+          </a>
         </div>
       </header>
       <div class="general-contractors__header--pages">
@@ -63,19 +75,49 @@
     </section>
     <section
       style="
-        background-image: url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/kv-1920w.jpg);
-        height: 900px;
+        background-image: url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/kv-1920w.jpg) !important;
+        height: 898px;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+        padding: 70px 0 0;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        width: auto;
+        background-position: 50% 50% !important;
       "
     >
       <div class="container">
         <div
           style="
-            background-image: url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/GettyImages-165995076-1920w.jpg);
-            height: 650px;
-            background-size: cover;
+            display: flex;
+            max-width: 100%;
+            width: 100%;
+            justify-content: end;
           "
-        ></div>
+        >
+          <div
+            style="
+              background-image: url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/GettyImages-165995076-1920w.jpg);
+              height: 650px;
+              background-size: cover;
+              background-repeat: no-repeat;
+              box-shadow: rgba(0, 0, 0, 0.25) 0 0 11px 0;
+              width: 75%;
+              position: relative;
+            "
+          >
+            <div class="general-contractors__home--hero-box">
+              <p class="general-contractors__home--hero-desc">
+                When Texas Storms Hit, Neighbors Tell Neighbors About SCR Since
+                1998
+              </p>
+              <a class="general-contractors__home--hero-button">Call Now</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <section></section>
   </body>
 </html>

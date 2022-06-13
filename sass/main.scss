@@ -1,5 +1,8 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
 .general-contractors__home--section-header {
   max-width: 1200px;
   margin: 0 auto;
@@ -24,6 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .general-contractors__home--facebook-icon {
@@ -31,18 +35,54 @@
   background-color: #3a5998;
   border-radius: 50%;
   margin-right: 5px;
-  width: 24px;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 .general-contractors__home--business-icon {
-  width: 24px;
-  height: 24px;
+  background-color: #477cdf;
+  color: #ffffff;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
-.general-contractors__header--phone {
+.general-contractors__header--phone,
+.general-contractors__home--hero-button {
+  background-color: #005f9c;
+  width: 200px;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  &:hover,
+  &:hover {
+    background-color: #0069ad;
+  }
+}
+
+.general-contractors__header--phone-number {
+  padding: 10px 7px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Lato;
+  color: inherit;
+}
+
+.general-contractors__header--phone-svg {
+  margin-left: 10px;
+}
+
+.general-contractors__header--desc {
+  font-weight: bold;
+  font-size: 16px;
+  transition: opacity 1s ease-in-out 0s;
+  margin: 8px 0;
+  padding: 2px 0;
 }
 
 .general-contractors__header--pages {
@@ -57,10 +97,44 @@
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0;
 }
 .general-contractors__navigation-text {
   font-size: 14px;
   margin: 0;
   padding: 0 30px;
   text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.general-contractors__home--hero-box {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 50px 20px;
+  font-size: 16px;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 230px;
+  left: -31%;
+}
+
+.general-contractors__home--hero-desc {
+  font-size: 40px;
+  font-family: 'Josefin Sans';
+  color: #ffffff;
+  text-align: center;
+}
+
+.general-contractors__home--hero-button {
+  display: flex;
+  justify-content: center;
 }
