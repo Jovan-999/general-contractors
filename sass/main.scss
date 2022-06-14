@@ -286,10 +286,33 @@
   font-family: Lato;
 }
 
+.general-contractors__home--section-sponsors {
+  background-color: #fafafa;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+  margin-bottom: -135px;
+}
+
+.general-contractors__home--sponsors-wrapper {
+  padding: 250px 65px;
+  margin: 0;
+  width: auto;
+}
+
+.general-contractors__home--sponsors-text {
+  text-align: center;
+}
+
+.general-contractors__home--sponsors-icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  list-style: none;
+}
+
 // FOOTER
 
 .footer {
-  padding: 200px 65px 60px;
+  padding: 200px 65px 0;
   background: linear-gradient(90deg, #213977 0, #005f9c 100%);
   clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
 }
